@@ -1,0 +1,13 @@
+package com.mrprk;
+
+public class StringConcat {
+	public String concatString(String str1, String str2) {
+		return str1.concat(str2);		
+	}
+	public static void main(String[] args) {
+		StringConcat obj = new StringConcat();
+		String res = obj.concatString("Atim", "Pramanik");
+		System.out.println(res);
+	}
+
+}
